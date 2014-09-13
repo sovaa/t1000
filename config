@@ -1,0 +1,36 @@
+#!/usr/bin/python
+
+nicknames=['^T-1000','^T-1001','^T-1002']
+channels=[
+    '#invadersam',
+    '#abbenay',
+    '#ost',
+    '#ost-CSANE',
+    '#seihou',
+#    '#t1000',
+]
+nickname=nicknames[0]
+quitmsg = "I'll get you next time John Connor!"
+
+trustedusers=['scorch@all.my.circuits']
+
+logfile = 't1000.log'
+server = 'localhost'
+port = 6667
+
+modules=[
+    'Wunder',
+    'F1'
+    #'Weather', 
+    #'WeatherForcast',
+    #'Httptitle',
+    #'Admin',
+    #'Seen',
+    #'Markov',
+    #'MegaHAL',
+    #'APK',
+]
+
+#init=[
+##]
+
